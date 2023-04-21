@@ -608,4 +608,67 @@ h1 {
   border-color: #FCF9F5;
 }
 
+.s-contacto {
+  display: flex;
+  flex-direction: row;
+}
+
+.imatext {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px;
+}
+.imatext p {
+  font-size: 1rem;
+  text-align: justify;
+  letter-spacing: 1px;
+  color: #696A62;
+  font-family: andreas;
+  font-weight: 400;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px;
+  padding-right: 5%;
+}
+
+.datos {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  font-family: poppins;
+  color: #696A62;
+  font-weight: 500;
+}
+
+.terminos {
+  display: flex;
+  flex-direction: row;
+  font-family: poppins;
+  color: #696A62;
+  font-weight: 500;
+  padding: 0 20px;
+}
+
+button {
+  width: 30%;
+  border-color: #696A62;
+  color: #696A62;
+  border-width: thin;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 2em;
+}
+
+button:hover {
+  background-color: #AC8780;
+  color: #FCF9F5;
+  border-color: #AC8780;
+}
+
 /*# sourceMappingURL=style.css.map */

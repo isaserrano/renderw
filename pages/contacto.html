@@ -37,31 +37,42 @@
 
         <main>
             <h1 class="conocer">¡Tengo muchas ganas de conocer tu proyecto!</h1>
-            <section>
-                <div>
+            <section class="s-contacto">
+                <div class="imatext">
                     <img src="../assets/img/45.png" alt="mesa pc">
-                    <img src="..//assets/img/23.png" alt="adorno floral">
                     <p class="contacto">Por favor, déjame tu mensaje, dudas o solicitud el siguiente formulario. Siéntete en casa y cuéntame todo lo que desees y creas necesario.<br> Te responderé lo antes posible, en 24-48 horas, y quedaremos para hablar con calma. <br> ¿Te parece? </p>
-
+                </div>
+                
+                <div class="formulario">
                     <form action="">
-                        <label for="Nombre"></label>
-                        <span>Nombre</span>
-                        <input type="text" id="Nombre" placeholder="" required>
-                        <label for="Email"></label>
-                        <span>Email</span>
-                        <input type="email" id="Email" placeholder="" required>
-                        <label for="Teléfono"></label>
-                        <span>Teléfono</span>
-                        <input type="tel" id="Teléfono" placeholder="">
-                        <label for="ayuda"></label>
-                        <span>¿Cómo puedo ayudarte?</span>
-                        <input type="text" id="ayuda" placeholder="" required >
-
-                        <label for="Acepto términos y condiciones"></label>
+                        <div class="datos">
+                            <label for="Nombre"></label>
+                            <span>Nombre</span>
+                            <input type="text" id="Nombre" placeholder="" required>
+                            <br>
+                            <label for="Email"></label>
+                            <span>Email</span>
+                            <input type="email" id="Email" placeholder="" required>
+                            <br>
+                            <label for="Teléfono"></label>
+                            <span>Teléfono</span>
+                            <input type="tel" id="Teléfono" placeholder="">
+                            <br>
+                            <label for="ayuda"></label>
+                            <span>¿Cómo puedo ayudarte?</span>
+                            <input type="text" id="ayuda" placeholder="" required >
+                            <br>
+                        </div>
+                        <div class="terminos">
+                            <label for="Acepto términos y condiciones"></label>
+                            <input type="checkbox" name="Acepto términos y condiciones" id="Acepto">
+                            <span>Acepto términos y condiciones</span>
+                            <br>
+                        </div> 
+                        <div class="button">
+                            <button type="submit">Send your message</button>
+                        </div>                   
                         
-                        <input type="checkbox" name="Acepto términos y condiciones" id="Acepto">
-                        <span>Acepto términos y condiciones</span>
-                        <input type="submit">
                     </form>
                 </div>
             </section>
