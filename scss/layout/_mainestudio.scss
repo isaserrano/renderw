@@ -1,0 +1,53 @@
+.s-st{
+    display: flex;
+    flex-direction: row;
+    background-color: #FCF9F5;
+}
+.presen{
+    width: 60%;
+    padding: 3rem 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    h1{
+        color: #AC8780;
+        font-family: andreas;
+        font-weight: 300;
+        font-size: 2em;
+        text-align: left;
+    }
+    button{
+        width: 30%;
+        border-color: #696A62;
+        color: #696A62;
+        border-width: thin;
+        background-color: transparent;
+        padding: 5px;
+        border-radius: 2em;
+    }
+    button:hover{
+        background-color: #AC8780;
+        color: #FCF9F5 ;
+        border-color: #AC8780;
+    }
+}
+.hola{
+    color: #696A62;
+    font-family: the-wedding-signature;
+    letter-spacing: 2px;
+    font-size: 120px;
+    font-weight: 100;
+}
+.texto{
+    font-family: poppins;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    color: #696A62;
+}
+.foto{
+    width: 40%;
+    padding: 3rem 3rem 10rem 5rem;
+}
+

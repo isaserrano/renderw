@@ -28,7 +28,7 @@ header div p {
 .nav-wrapper {
   width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.2rem;
 }
 
 nav {
@@ -361,6 +361,251 @@ footer img {
     background-color: #FCF9F5;
     padding-top: 30px;
   }
+}
+.s-st {
+  display: flex;
+  flex-direction: row;
+  background-color: #FCF9F5;
+}
+
+.presen {
+  width: 60%;
+  padding: 3rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.presen h1 {
+  color: #AC8780;
+  font-family: andreas;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: left;
+}
+.presen button {
+  width: 30%;
+  border-color: #696A62;
+  color: #696A62;
+  border-width: thin;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 2em;
+}
+.presen button:hover {
+  background-color: #AC8780;
+  color: #FCF9F5;
+  border-color: #AC8780;
+}
+
+.hola {
+  color: #696A62;
+  font-family: the-wedding-signature;
+  letter-spacing: 2px;
+  font-size: 120px;
+  font-weight: 100;
+}
+
+.texto {
+  font-family: poppins;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: justify;
+  color: #696A62;
+}
+
+.foto {
+  width: 40%;
+  padding: 3rem 3rem 10rem 5rem;
+}
+
+h1 {
+  color: #696A62;
+  font-family: andreas;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+.proc-s1 {
+  display: flex;
+  flex-direction: row;
+  padding-left: -100px;
+  position: center;
+  margin: 50px;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: -100px;
+  position: relative;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.card1 h2 {
+  font-family: andreas;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #AC8780;
+}
+.card1 p {
+  font-family: poppins;
+  color: #696A62;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+.card1 img {
+  width: 90%;
+}
+
+.proc-s2 {
+  display: flex;
+  flex-direction: row;
+  padding-left: -100px;
+  position: center;
+  margin: 50px;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: -100px;
+  position: relative;
+  width: 50%;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.card2 h2 {
+  font-family: andreas;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #AC8780;
+}
+.card2 p {
+  font-family: poppins;
+  color: #696A62;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+.card2 img {
+  width: 90%;
+}
+
+.proc-s3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: -100px;
+  position: center;
+  margin: 50px;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  padding-left: -100px;
+  position: relative;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+.card3 h2 {
+  font-family: andreas;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #AC8780;
+}
+.card3 p {
+  font-family: poppins;
+  color: #696A62;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  width: 80%;
+}
+.card3 img {
+  width: 90%;
+}
+
+.img3 img {
+  width: 620px;
+  height: 349px;
+}
+
+.proc-s4 {
+  display: flex;
+  flex-direction: row;
+  padding-left: -100px;
+  position: center;
+  margin: 50px;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  padding-left: -100px;
+  position: relative;
+  width: 50%;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.card4 h2 {
+  font-family: andreas;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #AC8780;
+}
+.card4 p {
+  font-family: poppins;
+  color: #696A62;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+.card4 img {
+  width: 90%;
+}
+
+.s-proceso {
+  background-color: #AC8780;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s-proceso p {
+  font-family: andreas;
+  color: #FCF9F5;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}
+.s-proceso a button {
+  border-color: #FCF9F5;
+  color: #AC8780;
+  border-width: thin;
+  background-color: #FCF9F5;
+  padding: 10px 20px;
+  border-radius: 2em;
+}
+.s-proceso button:hover {
+  background-color: #FCF9F5;
+  color: #696A62;
+  border-color: #FCF9F5;
 }
 
 /*# sourceMappingURL=style.css.map */
