@@ -373,8 +373,6 @@ footer img {
     flex-direction: column;
     gap: 10px;
   }
-}
-@media (max-width: 768px) and (max-width: 320px) {
   .container-s1 {
     display: flex;
     flex-wrap: wrap;
@@ -448,18 +446,19 @@ footer img {
     height: 300px;
     margin-top: -50px;
     padding-bottom: 20px;
+    /*ESTUDIO*/
   }
-  .s4-img {
+  .container-s4 img .s4-img {
     margin-right: 0;
   }
-  .s4-card {
+  .container-s4 img .s4-card {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     left: 20px;
     font-size: 0.9rem;
   }
-  .s4-card h2 {
+  .container-s4 img .s4-card h2 {
     color: #AC8780;
     font-family: andreas;
     font-weight: 400;
@@ -467,7 +466,7 @@ footer img {
     text-align: center;
     padding-bottom: 10px;
   }
-  .s4-card p {
+  .container-s4 img .s4-card p {
     font-family: poppins;
     font-size: 1em;
     font-weight: 300;
@@ -475,28 +474,136 @@ footer img {
     text-align: justify;
     margin: 20px;
   }
-  .container-s5 {
+  .container-s4 img .container-s5 {
     display: flex;
     flex-flow: row wrap;
     row-gap: 80px;
   }
-  .container-s6 {
+  .container-s4 img .container-s6 {
     padding: 20px 20px;
   }
-  /*ESTUDIO*/
-  .s-st {
+  .container-s4 img div .s-st {
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
-  .foto {
+  .container-s4 img .foto {
     width: 50%;
   }
+  /*proceso*/
+  main h1 {
+    font-size: 1rem;
+    margin: 5%;
+  }
+  .presen {
+    width: 100%;
+  }
+  .proc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  div .proc-s1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  div .proc-s1 img {
+    width: 300px;
+  }
+  div .card1 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+  }
 }
+div .proc-s2 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0px;
+}
+div .proc-s2 img {
+  width: 300px;
+}
+
+div .card2 {
+  width: 80%;
+  padding: 0px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+div .proc-s3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+div .proc-s3 img {
+  width: 80%;
+  height: 80%;
+}
+
+div .card3 {
+  width: 80%;
+  padding: 0px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+div .proc-s4 {
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0px;
+}
+div .proc-s4 img {
+  width: 300px;
+}
+
+div .card4 {
+  width: 80%;
+  padding: 0px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+/* proyectos */
+.intro {
+  font-size: 1rem;
+}
+
+h1.porfolio {
+  font-size: 16px;
+  padding: 5%;
+}
+
+section.trabajos {
+  flex-direction: column;
+  align-items: center;
+}
+
+div.card1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+div.card1 img {
+  width: 100%;
+}
+
+div.card2 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+div.card2 img {
+  width: 100%;
+}
+
 .s-st {
   display: flex;
   flex-direction: row;
-  background-color: #FCF9F5;
 }
 
 .presen {

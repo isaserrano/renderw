@@ -42,7 +42,7 @@
         gap: 10px;
     }
 
-    @media(max-width: 320px){
+ 
 
         .container-s1{
         display: flex;
@@ -118,8 +118,8 @@
             height: 300px;
             margin-top: -50px;
             padding-bottom: 20px;
-          }
-          .s4-img {
+        
+        .s4-img {
             margin-right: 0;
         }
         .s4-card{
@@ -158,13 +158,121 @@
 
 /*ESTUDIO*/
 
-.s-st{
+div .s-st{
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .foto{
     width: 50%;
 }
 }
+/*proceso*/
+main h1{
+    font-size: 1rem;
+    margin: 5%;
+}
+
+.presen{
+    width: 100%;
+}
+
+.proc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+div .proc-s1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    img{
+        width: 300px;
+    }
+}
+div .card1{
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+    }
+}
+div .proc-s2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+    img{
+        width: 300px;
+    }
+}
+div .card2 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+}
+div .proc-s3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    img{
+        width: 80%;
+        height: 80%;
+    }
+}
+div .card3 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+}
+div .proc-s4 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+    img{
+        width: 300px;
+    }
+}
+div .card4 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+/* proyectos */
+.intro{
+    font-size: 1rem;
+}
+
+h1.porfolio {    
+    font-size: 16px; 
+    padding: 5%;
+}
+
+
+section.trabajos {
+    flex-direction: column;
+    align-items: center;
+
+}
+div.card1{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+div.card2{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    img{
+        width: 100%;
+    }
 }
