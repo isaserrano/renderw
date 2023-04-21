@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    font-family: poppins;
+    background-color: #FCF9F5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.top .redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 30%;
+    justify-items: center;
+}
+.top .redes a{
+    text-decoration: none;
+    color: #696A62;
+}
+
+.top .legal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 30%;
+    justify-items: center;
+}
+.top .legal a{
+    text-decoration: none;
+    color: #696A62;
+}
+footer img{
+    height: 150px;
+}

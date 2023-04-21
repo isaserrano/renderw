@@ -1,614 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-/*font-family: 'Poppins', sans-serif;*/
-@font-face {
-    font-family: andreas;
-    src: url(../assets/img/fonts/semplicita.ttf);
-    font-family: the-wedding-signature;
-    src: url(../assets/img/fonts/theweddingsignatureregular-bwz55.ttf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background-color: #FCF9F5;
+@font-face {
+  font-family: andreas;
+  src: url(../assets/img/fonts/semplicita.ttf);
+  font-family: the-wedding-signature;
+  src: url(../assets/img/fonts/theweddingsignatureregular-bwz55.ttf);
+}
+header {
+  background-color: #FCF9F5;
 }
 header div p {
-    color: #FCF9F5;
-    font-size: 18px;
-    background-color: #696A62;
-    text-align: center;
-    padding: 10px;
-    letter-spacing: 2px;
-    font-family: andreas;
-    font-weight: 300;
-
-}
-.container-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    justify-items: center;
-}
-.tamano-logo{
-    height: 150px;
-    margin-top: 50px;
-    margin-left: 100px;
-}
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    gap: 50px;
-    margin-top: 120px;
-    padding-bottom: 10px;
-    margin-right: 250px;
-    justify-content: left;
-    padding-left: 50px;
-    font-family: andreas;
-    letter-spacing: 1px;
+  color: #FCF9F5;
+  font-size: 18px;
+  background-color: #696A62;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: andreas;
+  font-weight: 300;
 }
 
-.navbar li a {
-    font-size: 20px;
-
+.nav-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-header nav ul li a{
-    color: #696A62;
-    text-decoration: none;    
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  border-radius: 0.4rem;
 }
-main{
-    background-color: #FCF9F5;
-}
-
-.container-s1{
-    display: flex;
-    padding-top: 60px;
-    padding-bottom: 100px;
-    justify-content: space-between;
-    align-items: center;
+nav .logo {
+  width: 200px;
+  height: auto;
 }
 
-.container-s1 h1{
-    color: #AC8780;
-    font-family: andreas;
-    font-weight: 300;
-    font-size: 2em;
-    text-align: left;
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
 }
 
-.container-s2{
-    color: #FCF9F5;
-    font-size: 25px;
-    font-weight: 150;
-    background-color: #696A62;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 150px;
-    padding-right: 150px;
-    letter-spacing: 2px;
-    font-family: andreas;
-    line-height: 1.5;
+.menu ul li a {
+  text-decoration: none;
+  color: #696A62;
+  font-size: 1.2rem;
 }
 
-.adorno{
-    display: none;
+nav #toggle, nav label {
+  display: none;
 }
 
-.s3-card{
-    display: flex;
-    flex-direction: column;
-    padding-left: -100px;
-    position: relative;
-    left: -150px;
-}
-.s3-card h2 {
-    color: #696A62;
-    font-family: the-wedding-signature;
-    letter-spacing: 2px;
-    font-size: 120px;
-    font-weight: 100;
-}
-.s3-card p{
-    font-family: poppins;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify;
-}
-.container-s3{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
+/*.container-header{
+    @include flex (row, space-between, center, center);
+    div{
+        a {
+            img{
+                height: 150px;
+                margin-top: 50px;
+                margin-left: 100px;
+            }
 
-.container-s4{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F0E8E0;
-    height: 310px;
-    margin-top: 100px;
-}
-.s4-card{
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    left: 120px;
-}
-.s4-card h2{
-    color: #AC8780;
-    font-family: andreas;
-    font-weight: 400;
-    font-size: 1.5em;
-    text-align: left;
-}
-
-.s4-card p{
-    font-family: poppins;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify
-    
-}
-
-.s4-img{
-    margin-right: 100px;
-}
-
-.container-s5{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 200px;
-    margin-bottom: 150px;
-}
-
-.item1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 260px;
-}
-.item2{
-    display: flex;
-    flex-direction: column;
-        align-items: center;
-    text-align: center;
-    width: 260px;
-
-}
-.item3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 260px;
-}
-.item4{
-    display: grid;
-    grid-template-columns: column;
-    align-items: center;
-    text-align: center;
-    width: 260px;
-}
-
-.item1 h2{
-    font-family: andreas;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #696A62;
-    margin-bottom: 20px;
-}
-.item1 p{
-    font-family: poppins;
-    font-size: 1em;
-}
-.item2 h2{
-    font-family: andreas;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #AC8780;
-    margin-bottom: 20px;
-}
-.item2 p{
-    font-family: poppins;
-    font-size: 1em;
-}
-.item3 h2{
-    font-family: andreas;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #696A62;
-    margin-bottom: 20px;
-}
-.item3 p{
-    font-family: poppins;
-    font-size: 1em;
-}
-.item4 h2{
-    font-family: andreas;
-    font-size: 1.5em;
-    font-weight: 300;
-    color: #AC8780;
-    margin-bottom: 20px;
-}
-.item4 p{
-    font-family: poppins;
-    font-size: 1em;
-}
-
-.container-s6{
-    width: 100%;
-    background-color: #F8F1EB;
-    padding: 100px 200px;
-}
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 40px;
-    font-family: poppins;
-    background-color: #FCF9F5;
-    padding-top: 30px;
-}
-
-.top .redes {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    width: 30%;
-    justify-items: center;
-}
-.top .redes a{
-    text-decoration: none;
-    color: #696A62;
-}
-
-.top .legal {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    width: 30%;
-    justify-items: center;
-}
-.top .legal a{
-    text-decoration: none;
-    color: #696A62;
-}
-footer img{
-    height: 150px;
-}
-
-@media(max-width: 768px){
-    .container-header {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        align-items: center;
-    }
-    .container-header nav{
-        display: flex;
-
-    }
-    .tamano-logo{
-        height: 100px;
-        margin-top: 20px;
-        margin-left: 50px;
-        justify-content: center;
-    }
-    .navbar{        
-        justify-content: end;
-        gap: 10px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        font-size: 0.9em;
-        margin-right: 0px;
-    }
-    .container-s1{
-        display: flex;
-        flex-flow: row, nowrap;
-        padding-top: 20px;
-        padding-bottom: 50px;
-        justify-content: space-between;
-        align-items: center;
-    }
-        .container-s1 h1{
-        color: #AC8780;
-        font-family: andreas;
-        font-weight: 300;
-        font-size: 1.2em;
-        text-align: center;
-        justify-content: center;
-        margin-right: 80px;
-    }
-    .fotoiqda{
-        display: none;
-    }
-    .fotodcha{
-        height: 250px;
-    }    
-    
-    .container-s2{
-        color: #FCF9F5;
-        font-size: 0.9em;
-        font-weight: 150;
-        background-color: #696A62;
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 100px;
-        padding-right: 100px;
-        letter-spacing: 2px;
-        font-family: andreas;
-        line-height: 1.5;
-    }
-
-    
-    .s3-card{
-        display: flex;
-        flex-direction: column;
-    }
-    .s3-card h2 {
-        margin-top: -90px;
-        text-align: right;
-        margin-right: -80px;
-    }
-    .s3-card p{
-        font-family: poppins;
-        font-size: 0.9em;
-        font-weight: 300;
-        line-height: 1.5;
-        text-align: right;
-        margin-right: -100px;
-        margin-left: 200px;
-    }
-.s3-card p span{
-    color: #AC8780;
-    font-weight: 600;
-}
-    .container-s3 img{
-        width: 100%;
-    }
-    .container-s3{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        align-items: center;
-    }
-
-    .container-s4{
-        height: 320px;
-    }
-
-    .s4-card{
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-        left: 20px;
-    }
-    .s4-card h2{
-        color: #AC8780;
-        font-family: andreas;
-        font-weight: 400;
-        font-size: 1.3em;
-        text-align: left;
-        padding-bottom: 20px;
-    }
-.s4-img{
-    margin-right: 0px;
-}
-    .s4-card p{
-        font-family: poppins;
-        font-size: 0.8em;
-        font-weight: 300;
-        line-height: 1.5;
-        text-align:left;
-        margin-right: 20px;
-    }
-
-    .container-s5{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        "item1 item2"
-        "item4 item3";
-        row-gap: 40px;
-        justify-items: center;
-	    align-items: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
-    }
-    .container-s6{
-        width: 100%;
-        background-color: #F8F1EB;
-        padding: 40px 40px;
-    }
-
-    footer {
-        flex-direction: column-reverse;
-        margin-top: 50;
-        margin: 0;
-    }
-
-}
-
-@media(max-width: 320px){
-    .container-header {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-    }
-    .tamano-logo{
-        height: 100px;
-        margin-top: 20px;
-        margin-left: 50px;
-        justify-content: center;
-    }
-    .navbar{        
-        justify-content: end;
-        flex-wrap: wrap;
-        gap: 20px;
-        padding-top: 30px;
-        padding-bottom: 10px;
-        padding-right: 30px;
-        padding-left: 50px;
-    }
-    .container-s1{
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 0px;
-    }
-    .fotodcha{
-        width: 320px;
-        height: auto;
-    }
-
-    .container-s1 h1{
- 
-    font-size: 1em;
-    width: 280px;
-    text-align: center;
-    justify-content: center;
-    margin-right: 0px;
-    padding: 20px;
-    }
-    .adorno{
-        display: flex;
-        width: 100%;
-    }
-        .container-s2{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .s3-card{
-        display: flex;
-        flex-direction: column;
-    }
-    .s3-card h2 {
-        margin-top: -40px;
-        text-align: right;
-        margin-right: -100px;
-        font-size: 100px;
-    }
-    .s3-card p{
-        font-family: poppins;
-        font-size: 0.9em;
-        font-weight: 300;
-        line-height: 1.5;
-        text-align: justify;
-        margin-right: -100px;
-        margin-left: 200px;
-    }
-    .s3-card p span{
-    color: #AC8780;
-    font-weight: 600;
-    }
-    .container-s3 img{
-        width: 100%;
-    }
-    .container-s3{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        align-items: center;
-    }
-    .container-s4{
-        height: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-        padding-bottom: 30px;
-    }
-    .container-s4 img{
-        height: 300px;
-        margin-top: -50px;
-        padding-bottom: 20px;
-    }
-    .s4-card{
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-        left: 20px;
-    }
-    .s4-card h2{
-        color: #AC8780;
-        font-family: andreas;
-        font-weight: 400;
-        font-size: 1.4em;
-        text-align: center;
-        padding-bottom: 10px;
-    }
-    .s4-card p{
-        font-family: poppins;
-        font-size: 1em;
-        font-weight: 300;
-        line-height: 1.5;
-        text-align: justify;
-        margin: 20px;
-    }
-
-    .container-s5{
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .container-s6{
-        padding: 20px 20px;
-    }
-
-    footer{
-        display: flex;
-        align-items: center;
-        justify-items: center;
-        gap: 20px;
-        font-family: poppins;
-        background-color: #FCF9F5;
-        padding-top: 30px;
-    }
-    
-    .top .redes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        width: 100%;
-        justify-items: center;
-        padding-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-        font-size: 0.8em;
         }
-    .top .legal {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        width: 100%;
-        justify-items: center;
-        padding-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-        font-size: 0.8em;
-    }
-
-    footer img{
-        height: 100px;
-    }
-    
-
-/********* ESTUDIO **********/
-.container-fluid .tamano-logo{
-        height: 150px;
-        margin-top: 50px;
-        margin-left: 100px;
-    }
-.container-fluid .navbar{
+    }  
+    .navbar{
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -622,134 +85,82 @@ footer img{
         font-family: andreas;
         letter-spacing: 1px;
     }
-.container-fluid .navbar li a {
-        font-size: 20px;
-        color: #696A62;
-        text-decoration: none; 
+    li{
+        a{
+            font-size: 20px;
+            color: #696A62;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #AC8780;
+            text-decoration: underline;
+        }
     }
 
-/*.s-st{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F0E8E0;
-    height: 310px;
-    margin-top: 100px;
 }*/
-
-.s-st p{
-    font-family: poppins;
-    font-size: 2em;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  font-family: poppins;
+  background-color: #FCF9F5;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-/********* proceso **********/
-.container-fluid .tamano-logo{
-    height: 150px;
-    margin-top: 50px;
-    margin-left: 100px;
-}
-.container-fluid .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    gap: 50px;
-    margin-top: 120px;
-    padding-bottom: 10px;
-    margin-right: 250px;
-    justify-content: left;
-    padding-left: 50px;
-    font-family: andreas;
-    letter-spacing: 1px;
-}
-.container-fluid .navbar li a {
-    font-size: 20px;
-    color: #696A62;
-    text-decoration: none; 
+.top .redes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 30%;
+  justify-items: center;
 }
 
-.proc-s1{
-    display: flex;
+.top .redes a {
+  text-decoration: none;
+  color: #696A62;
+}
+
+.top .legal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 30%;
+  justify-items: center;
+}
+
+.top .legal a {
+  text-decoration: none;
+  color: #696A62;
+}
+
+footer img {
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem 1.5rem;
+  }
+  nav .menu {
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #F0E8E0;
-    height: 310px;
-    margin-top: 100px;
-}
-.card1{
-    display: flex;
+    height: 0;
+    overflow: hidden;
+  }
+  .menu ul {
     flex-direction: column;
-    margin-left: 100px;
-    left: 120px;
-}
-.card1 h2{
-    color: #AC8780;
-    font-family: poppins;
-    font-weight: 400;
-    font-size: 1.5em;
-    text-align: left;
-}
-
-.card1 p{
-    font-family: poppins;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify
-    
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  nav label {
+    display: inline-flex;
+    color: #696A62;
+    cursor: pointer;
+  }
+  nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
 }
 
-.img1{
-    margin-right: 100px;
-}
-
-
-/********* proyectos **********/
-.intro{
-    font-size: 40px;
-    color: #FCF9F5;
-    text-align: center;
-    
-}
-
-.porfolio{
-    font-size: 30px;
-    color: #AC8780;
-    text-align: center;
-    padding: 40px;
-}
-
-.apartamento{
-font-size: 25px;
-text-align: center;
-letter-spacing: 2px;
-color: #696A62;
-}
-.libia{
-font-size: 16px;
-text-align: center;
-color: #696A62;
-letter-spacing: 1px;
-background-color: #FCF9F5;
-}
-
-
-
-
-
-/********* contacto **********/
-.conocer{
-    font-size: 30px;
-    color: #AC8780;
-    text-align: center;
-    padding: 40px;
-}
-.contacto{
-    font-size: 20px;
-text-align: center;
-letter-spacing: 2px;
-color: #696A62;
-background-color: #FCF9F5;
-}
+/*# sourceMappingURL=style.css.map */
