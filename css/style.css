@@ -482,22 +482,34 @@ footer img {
   .container-s4 img .container-s6 {
     padding: 20px 20px;
   }
-  .container-s4 img div .s-st {
-    width: 100%;
-    display: flex;
+  .container-s4 img div.s-st {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  .container-s4 img .foto {
-    width: 50%;
+  .container-s4 img main.presen button {
+    width: 100%;
+    border-color: #696A62;
+    color: #696A62;
+    border-width: thin;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 2em;
+  }
+  .container-s4 img div.foto {
+    width: 100%;
+    padding: 0px;
   }
   /*proceso*/
   main h1 {
     font-size: 1rem;
     margin: 5%;
   }
-  .presen {
+  div.presen {
     width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .proc {
     display: flex;

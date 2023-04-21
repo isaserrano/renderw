@@ -20,7 +20,9 @@
     nav #toggle:checked ~ .menu{
         height: 100%;
     }
+}
 
+@media(max-with:320px){
     footer{
         display: flex;
         flex-direction: column;
@@ -40,9 +42,7 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-    }
-
- 
+    } 
 
         .container-s1{
         display: flex;
@@ -118,7 +118,7 @@
             height: 300px;
             margin-top: -50px;
             padding-bottom: 20px;
-        
+        }
         .s4-img {
             margin-right: 0;
         }
@@ -158,24 +158,36 @@
 
 /*ESTUDIO*/
 
-div .s-st{
-    width: 100%;
-    display: flex;
+div.s-st {
     flex-direction: column;
     flex-wrap: wrap;
 }
-.foto{
-    width: 50%;
+main.presen button {
+    width: 100%;
+    border-color: #696A62;
+    color: #696A62;
+    border-width: thin;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 2em;
 }
+div.foto {
+    width: 100%;
+    padding: 0px;
 }
+
 /*proceso*/
 main h1{
     font-size: 1rem;
     margin: 5%;
 }
 
-.presen{
+div.presen {
     width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .proc{
@@ -199,7 +211,7 @@ div .card1{
     margin: 20px 20px;
     text-align: center;
     }
-}
+
 div .proc-s2 {
     display: flex;
     flex-direction: column-reverse;
@@ -303,3 +315,4 @@ div.formulario {
     }
 }    
 
+}
