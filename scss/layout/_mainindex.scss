@@ -1,0 +1,184 @@
+.container-s1{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    h1{
+        color: #AC8780;
+        font-family: andreas;
+        font-weight: 300;
+        font-size: 2em;
+        text-align: left;
+    }
+}
+
+.adorno{
+    display: none;
+}
+
+.container-s2{
+    color: #FCF9F5;
+    font-size: 25px;
+    font-weight: 150;
+    background-color: #696A62;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+    letter-spacing: 2px;
+    font-family: andreas;
+    line-height: 1.5;
+}
+.container-s3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.s3-card{
+    display: flex;
+    flex-direction: column;
+    padding-left: -100px;
+    position: relative;
+    left: -150px;
+    h2{
+        color: #696A62;
+        font-family: the-wedding-signature;
+        letter-spacing: 2px;
+        font-size: 120px;
+        font-weight: 100;
+    }
+    p{
+        font-family: poppins;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5;
+        text-align: justify;
+    }
+}
+
+.container-s4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0E8E0;
+    height: 310px;
+    margin-top: 100px;
+}
+.s4-card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    left: 120px;
+    h2{
+        color: #696A62;
+        font-family: andreas;
+        font-weight: 600;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    h2::after{
+        content: " sueños";
+        color: #AC8780;
+    }
+    p{
+        font-family: poppins;
+        font-size: 1em;
+        font-weight: 300;
+        line-height: 1.5;
+        text-align: justify
+    }    
+}
+.s4-img{
+    margin-right: 100px;
+}
+
+.container-s5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+.item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    h2{
+        font-family: andreas;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #696A62;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: poppins;
+        font-size: 1em;
+    }
+}
+.item2{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+    text-align: center;
+    width: 260px;
+    h2{
+        font-family: andreas;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #AC8780;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: poppins;
+        font-size: 1em;
+    }
+}
+.item3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    h2{
+        font-family: andreas;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #696A62;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: poppins;
+        font-size: 1em;
+    }
+}
+.item4{
+    display: grid;
+    grid-template-columns: column;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    h2{
+        font-family: andreas;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: #AC8780;
+        margin-bottom: 20px;
+    }
+    p{
+        font-family: poppins;
+        font-size: 1em;
+    }
+}
+
+
+    .container-s6{
+        width: 100%;
+        background-color: #F8F1EB;
+        padding: 100px 200px;
+    }
+    
+

@@ -20,4 +20,19 @@
     nav #toggle:checked ~ .menu{
         height: 100%;
     }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 20px;
+        font-family: poppins;
+        background-color: #FCF9F5;
+        padding-top: 30px;
+       }
+
+
+
+
 }
+
