@@ -276,3 +276,30 @@ div.card2{
         width: 100%;
     }
 }
+
+section.s-contacto{
+    flex-direction: column;
+}
+div.imatext {
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: 0.9rem;
+            margin: 0px 40px;
+        }
+    }
+div.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px;
+    padding-right: 5%;
+    button{
+        align-content: center;
+    }
+}    
+

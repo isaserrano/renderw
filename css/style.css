@@ -601,6 +601,34 @@ div.card2 img {
   width: 100%;
 }
 
+section.s-contacto {
+  flex-direction: column;
+}
+
+div.imatext {
+  width: 100%;
+  flex-direction: column;
+  margin: 0px;
+}
+div.imatext img {
+  width: 100%;
+}
+div.imatext p {
+  font-size: 0.9rem;
+  margin: 0px 40px;
+}
+
+div.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0px;
+  padding-right: 5%;
+}
+div.formulario button {
+  align-content: center;
+}
+
 .s-st {
   display: flex;
   flex-direction: row;
