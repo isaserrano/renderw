@@ -608,6 +608,74 @@ h1 {
   border-color: #FCF9F5;
 }
 
+.banner {
+  background-image: url(../assets/img/SALON.png);
+  background-size: cover;
+  background-position: center;
+  color: #FCF9F5;
+  font-family: andreas;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  padding: 15%;
+}
+
+.porfolio {
+  color: #AC8780;
+  font-family: andreas;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.trabajos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+
+.card1 {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textocard1 {
+  background-color: rgba(252, 249, 245, 0.3098039216);
+  margin-top: 20px;
+}
+.textocard1 h2 {
+  text-align: center;
+}
+.textocard1 p {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.card2 {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textocard2 {
+  background-color: rgba(252, 249, 245, 0.3098039216);
+  margin-top: 20px;
+}
+.textocard2 h2 {
+  text-align: center;
+}
+.textocard2 p {
+  text-align: center;
+  padding: 0 20px;
+}
+
 .s-contacto {
   display: flex;
   flex-direction: row;
