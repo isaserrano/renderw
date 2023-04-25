@@ -20,9 +20,6 @@
     nav #toggle:checked ~ .menu{
         height: 100%;
     }
-}
-
-@media(max-with:320px){
     footer{
         display: flex;
         flex-direction: column;
@@ -43,7 +40,6 @@
         flex-direction: column;
         gap: 10px;
     } 
-
         .container-s1{
         display: flex;
         flex-wrap: wrap;
@@ -118,19 +114,15 @@
             height: 300px;
             margin-top: -50px;
             padding-bottom: 20px;
-        }
-        .s4-img {
             margin-right: 0;
         }
-        .s4-card{
+        .s4-card {
             display: flex;
             flex-direction: column;
-            margin-left: 20px;
-            left: 20px;
-            font-size: 0.9rem;
+            margin: 20px;
         }
         .s4-card h2{
-            color: #AC8780;
+        color: #696A62;
             font-family: andreas;
             font-weight: 400;
             font-size: 1.4em;
@@ -142,15 +134,16 @@
             font-size: 1em;
             font-weight: 300;
             line-height: 1.5;
-            text-align: justify;
-            margin: 20px;
+            text-align: justify;        
         }
     
-        .container-s5{
+        div .container-s5{
             display: flex;
-            flex-flow: row wrap;
+            flex-flow: row, wrap;
+            justify-content: center;
             row-gap: 80px;
         }
+
         .container-s6{
             padding: 20px 20px;
         }
@@ -304,7 +297,7 @@ div.imatext {
             margin: 0px 40px;
         }
     }
-div.formulario {
+div.formulario{
     display: flex;
     flex-direction: column;
     width: 90%;
@@ -314,5 +307,4 @@ div.formulario {
         align-content: center;
     }
 }    
-
 }
