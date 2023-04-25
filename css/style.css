@@ -54,6 +54,7 @@ nav .logo {
   text-decoration: none;
   color: #696A62;
   font-size: 1.2rem;
+  font-family: andreas;
 }
 
 nav #toggle, nav label {
@@ -217,7 +218,6 @@ footer img {
   display: flex;
   flex-direction: column;
   margin-left: 100px;
-  left: 120px;
 }
 .s4-card h2 {
   color: #696A62;
@@ -329,316 +329,6 @@ footer img {
   width: 100%;
   background-color: #F8F1EB;
   padding: 100px 200px;
-}
-
-@media (max-width: 768px) {
-  nav {
-    padding: 1rem 1.5rem;
-  }
-  nav .menu {
-    width: 100%;
-    height: 0;
-    overflow: hidden;
-  }
-  .menu ul {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem 0;
-  }
-  nav label {
-    display: inline-flex;
-    color: #696A62;
-    cursor: pointer;
-  }
-  nav #toggle:checked ~ .menu {
-    height: 100%;
-  }
-  footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    gap: 20px;
-    font-family: poppins;
-    background-color: #FCF9F5;
-    padding-top: 30px;
-  }
-  .top .redes {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .top .legal {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .container-s1 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 0px;
-  }
-  .fotodcha {
-    width: 100%;
-    height: auto;
-  }
-  .fotoiqda {
-    width: 100%;
-    height: auto;
-  }
-  .container-s1 h1 {
-    font-size: 1em;
-    width: 280px;
-    text-align: center;
-    justify-content: center;
-    margin-right: 0px;
-    padding: 20px;
-  }
-  .adorno {
-    display: flex;
-    width: 100%;
-  }
-  .container-s2 {
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 0.9rem;
-  }
-  .s3-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .s3-card h2 {
-    margin-top: -40px;
-    text-align: right;
-    margin-right: -100px;
-    font-size: 100px;
-  }
-  .s3-card p {
-    font-family: poppins;
-    font-size: 0.9em;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify;
-    margin-right: -100px;
-    margin-left: 200px;
-  }
-  .s3-card p span {
-    color: #AC8780;
-    font-weight: 600;
-  }
-  .container-s3 img {
-    width: 100%;
-  }
-  .container-s3 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-  }
-  .container-s4 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-    padding-bottom: 30px;
-  }
-  .container-s4 img {
-    height: 300px;
-    margin-top: -50px;
-    padding-bottom: 20px;
-    /*ESTUDIO*/
-  }
-  .container-s4 img .s4-img {
-    margin-right: 0;
-  }
-  .container-s4 img .s4-card {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    left: 20px;
-    font-size: 0.9rem;
-  }
-  .container-s4 img .s4-card h2 {
-    color: #AC8780;
-    font-family: andreas;
-    font-weight: 400;
-    font-size: 1.4em;
-    text-align: center;
-    padding-bottom: 10px;
-  }
-  .container-s4 img .s4-card p {
-    font-family: poppins;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 1.5;
-    text-align: justify;
-    margin: 20px;
-  }
-  .container-s4 img .container-s5 {
-    display: flex;
-    flex-flow: row wrap;
-    row-gap: 80px;
-  }
-  .container-s4 img .container-s6 {
-    padding: 20px 20px;
-  }
-  .container-s4 img div.s-st {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .container-s4 img main.presen button {
-    width: 100%;
-    border-color: #696A62;
-    color: #696A62;
-    border-width: thin;
-    background-color: transparent;
-    padding: 5px;
-    border-radius: 2em;
-  }
-  .container-s4 img div.foto {
-    width: 100%;
-    padding: 0px;
-  }
-  /*proceso*/
-  main h1 {
-    font-size: 1rem;
-    margin: 5%;
-  }
-  div.presen {
-    width: 100%;
-    padding: 1rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .proc {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  div .proc-s1 {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-  }
-  div .proc-s1 img {
-    width: 300px;
-  }
-  div .card1 {
-    width: 80%;
-    padding: 0px;
-    margin: 20px 20px;
-    text-align: center;
-  }
-}
-div .proc-s2 {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 0px;
-}
-div .proc-s2 img {
-  width: 300px;
-}
-
-div .card2 {
-  width: 80%;
-  padding: 0px;
-  margin: 20px 20px;
-  text-align: center;
-}
-
-div .proc-s3 {
-  display: flex;
-  flex-direction: column;
-  margin: 0px;
-}
-div .proc-s3 img {
-  width: 80%;
-  height: 80%;
-}
-
-div .card3 {
-  width: 80%;
-  padding: 0px;
-  margin: 20px 20px;
-  text-align: center;
-}
-
-div .proc-s4 {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 0px;
-}
-div .proc-s4 img {
-  width: 300px;
-}
-
-div .card4 {
-  width: 80%;
-  padding: 0px;
-  margin: 20px 20px;
-  text-align: center;
-}
-
-/* proyectos */
-.intro {
-  font-size: 1rem;
-}
-
-h1.porfolio {
-  font-size: 16px;
-  padding: 5%;
-}
-
-section.trabajos {
-  flex-direction: column;
-  align-items: center;
-}
-
-div.card1 {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-div.card1 img {
-  width: 100%;
-}
-
-div.card2 {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
-div.card2 img {
-  width: 100%;
-}
-
-section.s-contacto {
-  flex-direction: column;
-}
-
-div.imatext {
-  width: 100%;
-  flex-direction: column;
-  margin: 0px;
-}
-div.imatext img {
-  width: 100%;
-}
-div.imatext p {
-  font-size: 0.9rem;
-  margin: 0px 40px;
-}
-
-div.formulario {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin: 0px;
-  padding-right: 5%;
-}
-div.formulario button {
-  align-content: center;
 }
 
 .s-st {
@@ -954,19 +644,28 @@ h1 {
   padding: 0 20px;
 }
 
-.s-contacto {
+h1 {
+  color: #696A62;
+  font-family: andreas;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 20px;
+}
+
+section.s-contacto {
   display: flex;
   flex-direction: row;
 }
 
-.imatext {
+div.imatext {
   width: 50%;
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 50px;
 }
-.imatext p {
+div.imatext p {
   font-size: 1rem;
   text-align: justify;
   letter-spacing: 1px;
@@ -975,7 +674,7 @@ h1 {
   font-weight: 400;
 }
 
-.formulario {
+div.formulario {
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -1015,6 +714,299 @@ button:hover {
   background-color: #AC8780;
   color: #FCF9F5;
   border-color: #AC8780;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem 1.5rem;
+  }
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+  }
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  nav label {
+    display: inline-flex;
+    color: #696A62;
+    cursor: pointer;
+  }
+  nav #toggle:checked ~ .menu {
+    height: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    font-family: poppins;
+    background-color: #FCF9F5;
+    padding-top: 30px;
+  }
+  .top .redes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .top .legal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container-s1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+  }
+  .fotodcha {
+    width: 100%;
+    height: auto;
+  }
+  .fotoiqda {
+    width: 100%;
+    height: auto;
+  }
+  .container-s1 h1 {
+    font-size: 1em;
+    width: 280px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 0px;
+    padding: 20px;
+  }
+  .adorno {
+    display: flex;
+    width: 100%;
+  }
+  .container-s2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.9rem;
+  }
+  .s3-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .s3-card h2 {
+    margin-top: -40px;
+    text-align: right;
+    margin-right: -100px;
+    font-size: 100px;
+  }
+  .s3-card p {
+    font-family: poppins;
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: -100px;
+    margin-left: 200px;
+  }
+  .s3-card p span {
+    color: #AC8780;
+    font-weight: 600;
+  }
+  .container-s3 img {
+    width: 100%;
+  }
+  .container-s3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+  }
+  .container-s4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 30px;
+  }
+  .container-s4 img {
+    height: 300px;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    margin-right: 0;
+  }
+  .s4-card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .s4-card h2 {
+    color: #696A62;
+    font-family: andreas;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .s4-card p {
+    font-family: poppins;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  div .container-s5 {
+    display: flex;
+    flex-flow: row, wrap;
+    justify-content: center;
+    row-gap: 80px;
+  }
+  .container-s6 {
+    padding: 20px 20px;
+  }
+  /*ESTUDIO*/
+  div.s-st {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main.presen button {
+    width: 100%;
+    border-color: #696A62;
+    color: #696A62;
+    border-width: thin;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 2em;
+  }
+  div.foto {
+    width: 100%;
+    padding: 0px;
+  }
+  /*proceso*/
+  main h1 {
+    font-size: 1rem;
+    margin: 5%;
+  }
+  div.presen {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .proc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  div .proc-s1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  div .proc-s1 img {
+    width: 300px;
+  }
+  div .card1 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+  }
+  div .proc-s2 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+  div .proc-s2 img {
+    width: 300px;
+  }
+  div .card2 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+  }
+  div .proc-s3 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  div .proc-s3 img {
+    width: 80%;
+    height: 80%;
+  }
+  div .card3 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+  }
+  div .proc-s4 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
+  div .proc-s4 img {
+    width: 300px;
+  }
+  div .card4 {
+    width: 80%;
+    padding: 0px;
+    margin: 20px 20px;
+    text-align: center;
+  }
+  /* proyectos */
+  .intro {
+    font-size: 1rem;
+  }
+  h1.porfolio {
+    font-size: 16px;
+    padding: 5%;
+  }
+  section.trabajos {
+    flex-direction: column;
+    align-items: center;
+  }
+  div.card1 {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  div.card1 img {
+    width: 100%;
+  }
+  div.card2 {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  div.card2 img {
+    width: 100%;
+  }
+  section.s-contacto {
+    flex-direction: column;
+  }
+  div.imatext {
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+  }
+  div.imatext img {
+    width: 100%;
+  }
+  div.imatext p {
+    font-size: 0.9rem;
+    margin: 0px 40px;
+  }
+  div.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px;
+    padding-right: 5%;
+  }
+  div.formulario button {
+    align-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
