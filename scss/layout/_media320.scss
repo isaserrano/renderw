@@ -137,11 +137,13 @@
             text-align: justify;        
         }
     
-        div .container-s5{
+        .container-s5{
             display: flex;
-            flex-flow: row, wrap;
-            justify-content: center;
-            row-gap: 80px;
+            justify-content: space-evenly;
+            margin-top: 200px;
+            margin-bottom: 150px;
+            flex-flow: row wrap;
+            row-gap: 60px;        
         }
 
         .container-s6{
@@ -155,7 +157,7 @@ div.s-st {
     flex-direction: column;
     flex-wrap: wrap;
 }
-main.presen button {
+.presen button {
     width: 100%;
     border-color: #696A62;
     color: #696A62;
